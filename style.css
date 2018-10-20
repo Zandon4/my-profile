@@ -1,0 +1,104 @@
+/* Colors and fonts */
+
+body	{
+	background: rgb(246,249,252);
+	Color: rgb(50,50,50);
+	font-family: courier monospace;
+	font-size: 16px;
+}
+
+h1 { 
+	font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+h2 { 
+	color: rgb(100,100,100);
+	font-family: courrier
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+div {
+	background: white;
+	
+	margin: 50px;
+	box-shadow: 0px 5px 15px;
+	}
+
+a {
+	font-family: "roboto", sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 16px;
+
+}
+a:hover {
+	color: black;
+}
+
+#logo { /*profile.jpg*/
+	border-radius: 50%;
+	border: 10px solid black;
+}   
+
+/* Custom design with class */
+
+.container {
+	width: 700px; 
+	margin: 40px auto;
+
+}
+
+.card-white {
+	background-color: white;
+	padding : 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#big-title {
+	font-family: 'Comfortaa', 'Century Gothic', Arial;
+	letter-spacing: 0px;
+	line-height: 1.5em;
+	font-weight: normal;
+	color: #f66d52;
+	text-decoration: none;
+    opacity: 1;
+}
+
+.list-inline li {
+	padding: 10px;
+	display: inline;
+
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#title {
+	
+  }
